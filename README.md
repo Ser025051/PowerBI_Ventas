@@ -44,6 +44,13 @@ Dashboard desarrollado en Power BI para analizar Indicadores de Compromiso (IoC)
 - Google Threat Intelligence fue una de las principales fuentes.
 - Se identificaron actores como FIN7 y APT44.
 
+## Proceso
+
+1. Importación de CSV
+2. Limpieza en Power Query
+3. Transformación de fechas
+4. Creación de métricas
+5. Construcción de visualizaciones
 ## Autor
 
 Sergio Caballero Pedraza
