@@ -38,19 +38,26 @@ Dashboard desarrollado en Power BI para analizar Indicadores de Compromiso (IoC)
 - Fuentes de Inteligencia
 - Tendencia Temporal
 
-## Hallazgos
 
-- FQDN fue el tipo más frecuente.
-- Google Threat Intelligence fue una de las principales fuentes.
-- Se identificaron actores como FIN7 y APT44.
+## Proceso de limpieza en Power Query
 
-## Proceso
+1. Importación del archivo CSV.
+2. Validación de los delimitadores.
+3. Corrección de columnas mal interpretadas.
+4. Renombrado de campos.
+5. Revisión de tipos de datos.
+6. Preparación de la información para visualización.
 
-1. Importación de CSV
-2. Limpieza en Power Query
-3. Transformación de fechas
-4. Creación de métricas
-5. Construcción de visualizaciones
+
+6. ## Hallazgos
+
+- FQDN fue el tipo de indicador más frecuente.
+- Google Threat Intelligence apareció entre las principales fuentes.
+- Se identificaron múltiples actores de amenaza.
+- El dataset contiene dominios, IPs, URLs y hashes maliciosos.
+
+
 ## Autor
 
 Sergio Caballero Pedraza
+
